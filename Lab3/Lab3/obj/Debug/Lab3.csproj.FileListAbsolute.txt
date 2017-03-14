@@ -1,0 +1,12 @@
+C:\Users\Dawid\Desktop\Projects\Rozprochy\Game\C#\Lab3\Lab3\bin\Debug\Lab3.exe.config
+C:\Users\Dawid\Desktop\Projects\Rozprochy\Game\C#\Lab3\Lab3\bin\Debug\Lab3.exe
+C:\Users\Dawid\Desktop\Projects\Rozprochy\Game\C#\Lab3\Lab3\bin\Debug\Lab3.pdb
+C:\Users\Dawid\Desktop\Projects\Rozprochy\Game\C#\Lab3\Lab3\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+C:\Users\Dawid\Desktop\Projects\Rozprochy\Game\C#\Lab3\Lab3\obj\Debug\Lab3.exe
+C:\Users\Dawid\Desktop\Projects\Rozprochy\Game\C#\Lab3\Lab3\obj\Debug\Lab3.pdb
+C:\Users\Dawid\Desktop\Projects\Platformy\C#\Lab3\Lab3\bin\Debug\Lab3.exe.config
+C:\Users\Dawid\Desktop\Projects\Platformy\C#\Lab3\Lab3\obj\Debug\Lab3.exe
+C:\Users\Dawid\Desktop\Projects\Platformy\C#\Lab3\Lab3\obj\Debug\Lab3.pdb
+C:\Users\Dawid\Desktop\Projects\Platformy\C#\Lab3\Lab3\bin\Debug\Lab3.exe
+C:\Users\Dawid\Desktop\Projects\Platformy\C#\Lab3\Lab3\bin\Debug\Lab3.pdb
+C:\Users\Dawid\Desktop\Projects\Platformy\C#\Lab3\Lab3\obj\Debug\Lab3.csprojResolveAssemblyReference.cache

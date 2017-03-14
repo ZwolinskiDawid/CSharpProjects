@@ -1,0 +1,36 @@
+﻿<Window x:Class="LAB2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LAB2"
+        mc:Ignorable="d"
+        Title="File Manager" Height="600" Width="400">
+    <Grid>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="20" Margin="10,0,10,0" VerticalAlignment="Top" Width="362" IsMainMenu="True" Background="White">
+            <MenuItem Header="File" Height="20">
+                <MenuItem Header="Open" Click="MenuItem_Open"/>
+                <MenuItem Header="Exit" Click="MenuItem_Exit"/>
+            </MenuItem>
+        </Menu>
+
+        <TreeView x:Name="treeView" HorizontalAlignment="Left" Height="307" Margin="10,30,0,0" VerticalAlignment="Top" Width="362" MouseRightButtonDown="SelectItem" SelectedItemChanged="treeView_SelectedItemChanged">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate DataType="{x:Type local:File}" ItemsSource="{Binding Items}">
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel.ContextMenu>
+                            <ContextMenu Opened="MenuOpened">
+                                <MenuItem Header="create" Click="MenuItem_Create" />
+                                <MenuItem Header="delete" Click="MenuItem_Delete"/>
+                            </ContextMenu>
+                        </StackPanel.ContextMenu>
+                        <TextBlock Text="{Binding Name}" />
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="181" Margin="10,342,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="362"/>
+        <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="10,528,0,0" VerticalAlignment="Top" Width="52"/>
+
+    </Grid>
+</Window>

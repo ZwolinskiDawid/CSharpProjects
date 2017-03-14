@@ -1,0 +1,6 @@
+C:\Users\Dawid\Desktop\Projects\Platformy\C#\Lab1\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\Dawid\Desktop\Projects\Platformy\C#\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\Dawid\Desktop\Projects\Platformy\C#\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Users\Dawid\Desktop\Projects\Platformy\C#\Lab1\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\Dawid\Desktop\Projects\Platformy\C#\Lab1\Lab1\obj\Debug\Lab1.exe
+C:\Users\Dawid\Desktop\Projects\Platformy\C#\Lab1\Lab1\obj\Debug\Lab1.pdb
